@@ -46,7 +46,7 @@ pm.test("Проверить, что в body приходит правильны�
 ____
 ## user_info_3<a name="user_info_3"></a>
 ___
-*Add request * 
+*Add request* 
 *метод POST*  
 *в поле "Enter request URL" вписать http://162.55.220.72:5005/user_info_3 и нажать Save*
 
@@ -195,7 +195,7 @@ PASS salary_1.5 year
 ___
 ## object_info_3<a name="object_info_3"></a>  
 ___
-*Add request * 
+*Add request* 
 *метод GET*  
 *в поле "Enter request URL" вписать http://162.55.220.72:5005/object_info_3 и нажать Save*  
 
@@ -320,7 +320,7 @@ PASS dog_age
 в поле ввода кода тестов:
 ```javascrip
 pm.test("dog_Luky", () => {
-    pm.expect(jsonData.family.pets.dog.name).to.eql( 'Luky');
+    pm.expect(jsonData.family.pets.dog.name).to.eql('Luky');
 });
 ```
 во вкладке Test Results
@@ -333,7 +333,7 @@ PASS dog_Luky
 в поле ввода кода тестов:
 ```javascrip
 pm.test("dog_4", () => {
-    pm.expect(jsonData.family.pets.dog.age).to.eql( 4);
+    pm.expect(jsonData.family.pets.dog.age).to.eql(4);
 }); 
 ```
 во вкладке Test Results
